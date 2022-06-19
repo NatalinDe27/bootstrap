@@ -20,24 +20,20 @@ header .container .navbar-nav {
   display: flex;
   align-items: center;
 }
-header .container .navbar-nav .nav-item a {
-  display: inline-flex;
+header .container .navbar-nav .nav-item:nth-of-type(2) {
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 4px 7px;
   margin-right: 23px;
 }
-header .container .navbar-nav .nav-item a:nth-of-type(1) {
-  padding: 9px 27px 9px 33px;
-  border: 1px solid #FFFFFF;
-  border-radius: 15px;
-}
-header .container .navbar-nav .nav-item a:nth-of-type(2) {
+header .container .navbar-nav .nav-item:nth-of-type(3) {
   border: 1px solid #FFFFFF;
   border-radius: 50%;
-  padding: 12px 15px;
+  padding: 4px 3px 3px 4px;
 }
-header .container .navbar-nav .nav-item a:nth-of-type(3) {
-  border: 1px solid #FFFFFF;
-  border-radius: 50%;
-  padding: 12px 11px 11px 12px;
+header .container .navbar-nav .nav-item a {
+  display: inline-flex;
+  margin: auto;
 }
 header .container .navbar-nav .nav-item a span {
   font-family: "20 Kopeek";
@@ -45,18 +41,42 @@ header .container .navbar-nav .nav-item a span {
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
-  margin-right: 7px;
-}
-header .container .navbar-nav .nav-item a img {
-  margin: auto;
+  margin-right: 15px;
+  padding: 7px 27px 7px 33px;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
 }
 
 .main_section {
   height: 100vh;
 }
-
-.position-absolute {
+.main_section .position-absolute {
   z-index: 11;
+}
+.main_section .position-absolute h1 {
+  font-family: "20 Kopeek Book";
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  padding-bottom: 22px;
+}
+.main_section .position-absolute h2 {
+  font-family: "20 Kopeek Book";
+  font-size: 34px;
+  line-height: 110%;
+  color: #181818;
+  padding-bottom: 57px;
+}
+.main_section .position-absolute a {
+  padding: 23px 47px;
+  border-radius: 40px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  margin-right: 20px;
 }
 
 .main_banner {
@@ -90,6 +110,21 @@ header .container .navbar-nav .nav-item a img {
 .firm_style {
   padding-top: 68px;
   padding-bottom: 134px;
+}
+.firm_style h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+  margin-bottom: 15px;
+}
+.firm_style p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
 }
 
 .form_callback .form-check {
