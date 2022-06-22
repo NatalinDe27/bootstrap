@@ -17,7 +17,7 @@
 }
 header {
   position: absolute;
-  z-index: 2;
+  z-index: 12;
   padding-top: 24px;
 }
 header .container .navbar .navbar-brand {
@@ -308,6 +308,14 @@ header .container .navbar-nav .nav-item a span {
 }
 .form_callback .form-check-label span {
   color: #2B59C3;
+}
+
+.border_blue {
+  border: solid 2px blue;
+  border-bottom: none;
+}
+.border_blue.bt_none {
+  border-top: none;
 }
 
 /*# sourceMappingURL=style.css.map */

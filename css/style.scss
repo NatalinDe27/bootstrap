@@ -38,7 +38,7 @@ $font_book: '20 Kopeek-Book';
 
 header {
   position: absolute;
-  z-index: 2;
+  z-index: 12;
   padding-top: 24px;
 
   .container {
@@ -384,5 +384,13 @@ header {
         color: #2B59C3;
       }
     }
+  }
+}
+
+.border_blue {
+ border: solid 2px blue;
+  border-bottom: none;
+  &.bt_none {
+    border-top: none;
   }
 }
